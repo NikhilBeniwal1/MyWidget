@@ -1,8 +1,10 @@
 import 'package:daily/Gride_View.dart';
+import 'package:daily/MyChatApp.dart';
 import 'package:daily/bmi.dart';
 import 'package:daily/chat.dart';
 import 'package:daily/chatapp.dart';
 import 'package:daily/note_write.dart';
+import 'package:daily/random.dart';
 import 'package:daily/signup.dart';
 import 'package:daily/simplecal.dart';
 import 'package:daily/wall.dart';
@@ -37,7 +39,9 @@ class MyApp extends StatelessWidget {
       //  home: Chat(),
       //  home: CstmCode(),
       //  home: ListandGride(), // list and gride   gpt way
-      home: Gride1Notes(),
+      //  home: Gride1Notes(),
+      //  home: RandomNo(),
+      home: MyChatApp(),
     );
   }
 }
