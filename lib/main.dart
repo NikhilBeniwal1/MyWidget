@@ -3,6 +3,7 @@ import 'package:daily/MyChatApp.dart';
 import 'package:daily/bmi.dart';
 import 'package:daily/chat.dart';
 import 'package:daily/chatapp.dart';
+import 'package:daily/mynotesapp.dart';
 import 'package:daily/note_write.dart';
 import 'package:daily/random.dart';
 import 'package:daily/signup.dart';
@@ -13,6 +14,8 @@ import 'package:daily/call.dart';
 import 'package:daily/login.dart';
 import 'package:daily/listgride.dart';
 import 'package:daily/cstmcode.dart';
+
+import 'overlays.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,7 +44,9 @@ class MyApp extends StatelessWidget {
       //  home: ListandGride(), // list and gride   gpt way
       //  home: Gride1Notes(),
       //  home: RandomNo(),
-      home: MyChatApp(),
+      //  home: MyChatApp(),
+      //  home: Overlays(),
+      home: MyNotesApp(),
     );
   }
 }
